@@ -1,0 +1,38 @@
+.header{
+	position: fixed;
+	min-height: 50px;
+	width: 100%	;
+	max-width: 960px;
+	margin: -10px;
+	padding: 10px 0;
+	background: #c1f2c3;
+	z-index: 10;
+}
+.header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 5%;
+}
+.container span{
+	display: flex;
+	justify-content: space-around;
+	font-size: 2.4em;
+}
+.logo{
+	display: inline-block;
+	max-width: 42px;
+	max-height: 42px;
+	margin-right: 20px;
+}
+#inputSearch{
+	font-size: 1.2em;
+	border: 1px solid black;
+	border-right: none; 
+}
+#btnSearch{
+	font-size: 1.2em;
+	background: #0073d9;
+	border: 1px solid black;
+	color: #fff;
+}

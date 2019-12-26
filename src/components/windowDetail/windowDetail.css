@@ -1,0 +1,57 @@
+.photo{
+	position: relative;
+	flex:1; 
+	max-height: 300px;
+	max-width: 400px;
+}
+.photo img{
+	max-width:100%;
+}
+.fa-heart{
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	font-size: 1.2em;
+	color:red;
+	cursor: pointer;
+}
+#heartFavorite{
+	position: static;
+	font-size: 1.8em;
+	color:black;
+}
+.listingContent{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	flex:1;
+	text-align: center;
+}
+.titleListing{
+	margin: 0;
+	padding: 7px;
+	background: #FF6C00;
+}
+.titleListing h2{
+	margin: 0;
+}
+.priceListing{
+	font-size: 1.4em;
+	font-weight: bold;
+	background: #5b5b5c;
+	padding: 10px;
+}
+.priceListing p{
+	margin: 0;
+}
+.updated{
+	color:#FF4500;
+}
+.listingModal{
+	display: flex;
+	flex-flow: row nowrap;
+	max-height: 300px;
+	margin-bottom: 20px;
+	background: #fff;
+	box-shadow:3px 3px 6px grey;
+}

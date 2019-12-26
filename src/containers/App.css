@@ -1,0 +1,63 @@
+html,
+body {
+    height: 100%;
+    background: #FAFAD2;
+    margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  max-width: 960px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #ccc;
+}
+.main{
+  min-height: 450px;
+  margin: 70px 0 20px 0;
+  font-size: 14px;
+}
+.madalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+}
+.modalWindow {
+  display: block;
+  width: 450px;
+  max-width: 100%;
+  min-height: 300px;
+  padding:40px 20px;
+  max-height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  overflow: auto;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 0 60px 10px rgba(255, 255, 255, 0.9);
+}
+.modalHeader {
+  margin-bottom: 60px;
+}
+.modalBody {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: red;
+  text-align: center;
+}
+.favoriteEmpty {
+  margin-top: 120px;
+  font-size: 2em;
+}

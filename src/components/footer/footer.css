@@ -1,0 +1,13 @@
+.footer{
+	margin: -10px;
+	background: #66CCFF;
+	font-size: 1.4em;
+}
+.footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer a{
+	margin: 0 40px;
+}
